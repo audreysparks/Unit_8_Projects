@@ -6,17 +6,22 @@
    Case Problem 2
 
    Sudoku Style Sheet
-   Author: 
-   Date:   
+   Author: audrey sparks
+   Date:   november 22 2019
 
    Filename:         jpf_sudoku.css
 
 */
 
 /* Table Styles */
+table.spuzzle{
+   border-collapse: collapse;
+   margin-top: 
+}
 
-
-
+table.subTable tr td{
+   empty-cells: show;
+}
 /* Inner Table Styles */
 
 
