@@ -16,12 +16,39 @@
 /* Table Styles */
 table.spuzzle{
    border-collapse: collapse;
-   margin-top: 
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 90%;
+}
+td{
+   border-image-outset: 5px grey;
+   width: 33.3%;
+}
+th{
+   color:grey;
+   padding-right: 10px;
+   padding-left: 10px;
 }
 
 table.subTable tr td{
    empty-cells: show;
 }
 /* Inner Table Styles */
+table{
+   border-collapse: collapse;
+   width: 100%;
+}
+td.subTable{
+   box-shadow: 0px 15px 15px;
+   border: 1px black;
+   color: blue;
+   height: 40px;
+   text-align: center;
+}
 
+td.goldBox{
+   background-color: rgb(203,229,130);
+}
 
